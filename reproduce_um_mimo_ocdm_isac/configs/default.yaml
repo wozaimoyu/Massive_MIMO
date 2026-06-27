@@ -1,0 +1,31 @@
+# Default values follow Table I of arXiv:2512.23246v2 unless noted.
+fc: 30.0e9
+c: 299792458.0
+K: 256
+B: 100.0e6
+M: 64
+T_GI: 0.16e-6
+f_LPF: 12.5e6
+f_ADC: 12.5e6
+P_tx_dBm: 50.0
+N_tx: 512
+N_rx: 4
+N_dss: 4
+D_rx: 1.0
+L: 3
+range_min: 5.0
+range_max: 10.0
+elevation_min: 0.15
+elevation_max: 1.35
+azimuth_min: 0.0
+azimuth_max: 6.283185307179586
+velocity_min_kmh: 0.0
+velocity_max_kmh: 100.0
+H_max: 30
+H_vibs: 10
+T_com: 10.9e-6
+G_cp: 32
+epsilon_ce: 0.6
+seed: 2026
+channel_model: suc   # correlated | suc | sns
+sns_null_count: 0
